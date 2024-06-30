@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenorip International</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #22212c;
+            color: #707177;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(45deg, #333, #555);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            animation: glow 1s infinite alternate;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff; }
+            to { text-shadow: 0 0 20px #fff, 0 0 30px #5900ff, 0 0 40px #b700ff, 0 0 50px #b700ff, 0 0 60px #0026ff, 0 0 70px #3700ff, 0 0 80px #ff00ff; }
+        }
+        main {
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        h2 {
+            text-align: center;
+            color: #a7a6a6;
+            margin-bottom: 20px;
+        }
+        .service {
+            text-align: center;
+            padding: 20px;
+        }
+        .service img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        .service img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background: #0c0c0c;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lenorip International</h1>
+            <p>Extreme Krass und Stile</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>Über Lenorip</h2>
+                <p>Lenorip International steht für Spaß, Kreativität und verrückte Ideen. Willkommen in unserer Welt der Unterhaltung!</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Unsere coolen Features</h2>
+                <div class="service">
+                    <h3>Spiele</h3>
+                    <img src="https://via.placeholder.com/100" alt="Spiele">
+                    <p>Spiele lustige und spannende Spiele direkt auf unserer Website.</p>
+                </div>
+                <div class="service">
+                    <h3>Videos</h3>
+                    <img src="https://via.placeholder.com/100" alt="Videos">
+                    <p>Schaue dir unsere verrückten und unterhaltsamen Videos an.</p>
+                </div>
+                <div class="service">
+                    <h3>Memes</h3>
+                    <img src="https://via.placeholder.com/100" alt="Memes">
+                    <p>Genieße die besten Memes, die das Internet zu bieten hat.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>Kontaktieren Sie uns nicht per E-Mail: <a href=""></a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lenorip International. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
